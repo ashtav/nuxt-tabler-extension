@@ -102,6 +102,12 @@ export default {
             { label: 'Themes', to: '/plugins/theme', icon: 'palette' },
             { label: 'Utilities', to: '/plugins', icon: 'category' },
           ]
+        },
+        {
+          label: 'Experiments',
+          features: [
+            { label: 'Chat Bot', to: '/experiments/chat', icon: 'flask' }
+          ]
         }
       ],
 
